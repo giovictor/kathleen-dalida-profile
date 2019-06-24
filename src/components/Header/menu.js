@@ -7,7 +7,7 @@ import logo from '../../images/logo.png'
 import MenuItem from './menuItem'
 
 const Menu = () => (
-    <div>
+    <div className="nav">
         <img src={logo} className={styles.logo}/>
         <Slide right>
             <nav className={styles.navbar}>

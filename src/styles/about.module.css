@@ -1,0 +1,39 @@
+.about {
+    height:100%;
+    text-align:center;
+    padding-left:113px;
+    padding-right:113px;
+}
+
+.heading, .body {
+    color:#111111;
+}
+
+.heading {
+    text-transform:uppercase;
+    font-size:59.92px;
+    letter-spacing:0.1em;
+    margin-bottom:0;
+    margin-top:89px;
+    font-weight:500;
+}
+
+.body {
+    margin-top:35px;
+    margin-bottom:89px;
+    font-size:29.96 px;
+    letter-spacing:0.1em;
+    font-weight:300;
+    text-align:justify;
+    line-height:29.96px;
+}
+
+@media screen and (max-width:1366px) {
+    .about {
+        padding-left: 213px;
+        padding-right: 213px;
+    }
+    .body {
+        line-height:50px;
+    }
+}

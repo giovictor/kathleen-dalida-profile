@@ -3,7 +3,15 @@ module.exports = {
     title: `Kathleen Dalida Profile`,
     firstname: `Kathleen`,
     lastname:  `Dalida`,
-    job: `Graphic Designer`
+    job: `Graphic Designer`,
+    about:`Hello, Welcome to my profile. I wanna share you some little things about
+    me. Technically I’m a degree holder of Bachelor of Science in Information
+    Technology. I may not be a graduate of any multimedia arts or other
+    graphic design courses but I could say that I have my thinking and creating
+    skills in designing, like matketing materials such as posters, banners, logos,
+    business cards and flyers. I also design website mock-ups (website UI)
+    and website banners. I really love what I do and what I’am doing and  I’ll
+    more love the chance to appreciate my works by all of you.`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
