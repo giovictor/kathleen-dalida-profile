@@ -1,20 +1,24 @@
 import React from 'react'
+import Slide from 'react-reveal/Slide'
+
 import styles from '../../styles/header.module.css'
 import logo from '../../images/logo.png'
 
 import MenuItem from './menuItem'
 
 const Menu = () => (
-    <div className="header">
+    <div>
         <img src={logo} className={styles.logo}/>
-        <nav className={styles.navbar}>
-            <MenuItem itemName="Home"/>
-            <MenuItem itemName="About"/>
-            <MenuItem itemName="Education"/>
-            <MenuItem itemName="My Skills"/>
-            <MenuItem itemName="Design Fields"/>
-            <MenuItem itemName="Contact"/>
-        </nav>
+        <Slide right>
+            <nav className={styles.navbar}>
+                <MenuItem itemName="Home"/>
+                <MenuItem itemName="About"/>
+                <MenuItem itemName="Education"/>
+                <MenuItem itemName="My Skills"/>
+                <MenuItem itemName="Design Fields"/>
+                <MenuItem itemName="Contact"/>
+            </nav>
+        </Slide>
     </div>
 )
 
