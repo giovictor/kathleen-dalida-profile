@@ -1,0 +1,66 @@
+.education {
+    height:839px;
+    display:flex;
+    flex-flow:row wrap;
+    position:relative;
+}
+
+.historyContainer {
+    flex:0 0 50%;
+    background-color: #001a33;
+    color:#f0f0f0;
+}
+
+.history {
+    margin-left:110px;
+    margin-top:160px;
+}
+
+.history:nth-child(2) {
+    margin-top:88px;
+}
+
+.history h3, .history p {
+    margin-top:0;
+}
+
+.historyTitle {
+    font-size:44.94px;
+    font-weight:500;
+    letter-spacing:0.1em;
+    margin-bottom: 8px;
+}
+
+.historyDegree, .historySchool, .historySchoolYear {
+    font-size:29.96px;
+    font-weight:300;
+    letter-spacing:0.1em;
+    margin-bottom:13px;
+}
+
+.togaContainer {
+    flex:0 0 50%;
+    background-image:url('../images/togaBackground.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.togapic {
+    position:absolute;
+    left:742px;
+    top:50px;
+}
+
+.togaText {
+    transform:rotate(90deg);
+}
+
+@media screen and (max-width:1366px) {
+    .history {
+        margin-left:80px;
+    }
+    .togapic {
+        left:617px;
+    }
+}
