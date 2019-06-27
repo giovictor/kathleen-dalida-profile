@@ -18,7 +18,7 @@ const About = () => {
     )
 
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id="about">
             <Fade top>
                 <h1 className={styles.heading}>About Me</h1>
                 <p className={styles.body}>{data.site.siteMetadata.about}</p>

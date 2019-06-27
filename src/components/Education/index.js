@@ -7,7 +7,7 @@ import togapic from '../../images/toga.jpg'
 import styles from '../../styles/education.module.css'
 
 const Education = () => (
-    <div className={styles.education}>
+    <div className={styles.education} id="education">
         <div className={styles.historyContainer}>
             <Fade left>
                 <History title="SECONDARY" school="Pasay City South High School" year="2010-2014"/>

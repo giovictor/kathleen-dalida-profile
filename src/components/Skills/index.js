@@ -5,7 +5,7 @@ import Skill from './skill'
 import styles from '../../styles/skills.module.css'
 
 const Skills = () => (
-    <div className={styles.skills}>
+    <div className={styles.skills} id="skills">
         <h3 className={styles.heading}>Skills</h3>
 
         <div className={styles.skillsContainer}>

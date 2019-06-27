@@ -11,12 +11,12 @@ const Menu = () => (
         <img src={logo} className={styles.logo}/>
         <Slide right>
             <nav className={styles.navbar}>
-                <MenuItem itemName="Home"/>
-                <MenuItem itemName="About"/>
-                <MenuItem itemName="Education"/>
-                <MenuItem itemName="My Skills"/>
-                <MenuItem itemName="Design Fields"/>
-                <MenuItem itemName="Contact"/>
+                <MenuItem to="header" itemName="Home"/>
+                <MenuItem to="about" itemName="About"/>
+                <MenuItem to="education" itemName="Education"/>
+                <MenuItem to="skills" itemName="My Skills"/>
+                <MenuItem to="designFields" itemName="Design Fields"/>
+                <MenuItem to="contact" itemName="Contact"/>
             </nav>
         </Slide>
     </div>
