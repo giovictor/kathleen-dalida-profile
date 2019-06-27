@@ -5,6 +5,7 @@ import About from '../components/About'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
 import DesignFields from '../components/DesignFields'
+import Contact from '../components/Contact'
 
 const IndexPage = () => (
     <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
             <Education/>
             <Skills/>
             <DesignFields/>
+            <Contact/>
         </div>
     </Layout>
 )
