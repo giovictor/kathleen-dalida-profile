@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import About from '../components/About'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
+import DesignFields from '../components/DesignFields'
 
 const IndexPage = () => (
     <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
             <About />
             <Education/>
             <Skills/>
+            <DesignFields/>
         </div>
     </Layout>
 )
