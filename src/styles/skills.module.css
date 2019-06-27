@@ -27,14 +27,14 @@
 }
 
 .skill {
-   background-color:#001a33;
-   border-radius:50%;
-   width:181px;
-   height:181px;
-   text-align:center;
-   line-height: 45.25px;
-   border:solid #5dd3e5 27px;
-   margin-top:104px;
+    background-color:#001a33;
+    border-radius:50%;
+    width:181px;
+    height:181px;
+    text-align:center;
+    line-height: 45.25px;
+    border:solid #5dd3e5 27px;
+    margin-top:104px;
 }
 
 .skillText {

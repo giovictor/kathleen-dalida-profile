@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
+import Skill from './skill'
 
 import styles from '../../styles/skills.module.css'
 
@@ -9,17 +10,9 @@ const Skills = () => (
 
         <div className={styles.skillsContainer}>
             <Fade top>
-                <div className={styles.skill}>
-                    <p className={styles.skillText}>Ps</p>
-                </div>
-            
-                <div className={styles.skill}>
-                    <p className={styles.skillText}>Ai</p>
-                </div>
-                
-                <div className={styles.skill}>
-                    <p className={styles.skillText}>Id</p>
-                </div>
+                <Skill skill="Ps"/>
+                <Skill skill="Ai"/>
+                <Skill skill="Id"/>
             </Fade>
         </div>
     </div>
