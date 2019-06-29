@@ -1,0 +1,45 @@
+.navbar ul {
+    list-style-type:none;
+    margin-top:0;
+}
+
+.link {
+    text-decoration: none;
+    text-transform:uppercase;
+    color:#e3e3e3;
+    cursor: pointer;
+    transition:ease-in-out all 0.4s;
+}
+
+.link:hover {
+    color:#32b5f2;
+}
+
+.headerNav .navbar {
+    margin-top:67px;
+    margin-right:51px;
+}
+
+.headerNav .navbar ul {
+    margin-bottom:56px;
+}
+
+.headerNav .navbar ul li {
+    text-align:right;
+}
+
+.headerNav .link {
+    font-size:21.57px;
+    font-weight:600;
+    letter-spacing: 0.2em;
+}
+
+.headerNav .link:hover {
+    border-bottom:solid 11px #32b5f2;
+}
+
+@media screen and (max-width:1366px) {
+    .headerNav .link {
+        letter-spacing:0;
+    }
+}

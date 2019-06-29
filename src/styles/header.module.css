@@ -43,45 +43,9 @@
     left: 100px;
 }
 
-.navbar {
-    margin-top:67px;
-    margin-right:51px;
-}
-
-.navbar ul {
-    list-style-type:none;
-    margin-top:0;
-    margin-bottom:56px;
-}
-
-.navbar ul li {
-    text-align:right;
-}
-
-.link {
-    text-decoration: none;
-    text-transform:uppercase;
-    font-size:21.57px;
-    font-weight:600;
-    color:#e3e3e3;
-    letter-spacing: 0.2em;
-    cursor: pointer;
-}
-
-.link {
-    transition:ease-in-out all 0.4s;
-}
-
-.link:hover {
-    color:#32b5f2;
-    border-bottom:solid 11px #32b5f2;
-}
 
 @media screen and (max-width:1366px) {
     .logo {
         left:51px;
-    }
-    .link {
-        letter-spacing:0;
     }
 }

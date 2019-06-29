@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import styles from '../../styles/header.module.css'
+import styles from '../styles/menu.module.css'
 
 const MenuItem = (props) => (
     <ul>
