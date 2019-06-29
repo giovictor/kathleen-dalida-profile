@@ -1,4 +1,6 @@
 import React from "react"
+import Slide from 'react-reveal/Slide'
+
 import Introduction from './introduction'
 import Menu from '../menu'
 
@@ -10,7 +12,9 @@ const Header = () => (
         <Introduction/>
         <div className={styles.headerMenu}>
             <img src={logo} className={styles.logo}/>
-            <Menu mode="headerNav"/>
+            <Slide right>
+                <Menu mode="headerNav"/>
+            </Slide>
         </div>
     </header>
 )
