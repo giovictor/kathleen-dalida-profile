@@ -4,7 +4,7 @@ import DesignField from './designFields'
 import styles from '../../styles/designFields.module.css'
 
 const DesignFields = () => (
-    <div className={styles.designFields}>
+    <div className={styles.designFields} id="designFields">
         <h3 className={styles.heading}>Design Fields</h3>
 
         <div className={styles.fieldsContainer}>
