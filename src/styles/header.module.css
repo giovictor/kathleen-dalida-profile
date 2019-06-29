@@ -17,16 +17,17 @@
 
 .greeting, .firstName, .lastName, .job {
     text-transform: uppercase;
-    font-size:37.45px;
+    font-size:25px;
     font-weight:300;
     color:#ffffff;
     margin-top:0;
     margin-bottom:12px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
 }
 
 .firstName, .lastName {
-    font-size:59.92px;
+    font-size:50px;
+    font-weight:500;
 }
 
 .firstName {

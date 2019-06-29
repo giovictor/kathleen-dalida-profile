@@ -22,7 +22,7 @@
 .body {
     margin-top:35px;
     margin-bottom:89px;
-    font-size:29.96 px;
+    font-size:18px;
     letter-spacing:0.1em;
     font-weight:300;
     text-align:justify;
@@ -30,10 +30,6 @@
 }
 
 @media screen and (max-width:1366px) {
-    .about {
-        padding-left: 213px;
-        padding-right: 213px;
-    }
     .body {
         line-height:50px;
     }
