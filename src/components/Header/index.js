@@ -2,21 +2,21 @@ import React from "react"
 import Slide from 'react-reveal/Slide'
 
 import Introduction from './introduction'
-import Menu from '../menu'
+import Navbar from './navbar'
 
-import logo from '../../images/logo.png'
 import styles from '../../styles/header.module.css'
 
 const Header = () => (
-    <header className={styles.header} id="header">
-        <Introduction/>
-        <div className={styles.headerMenu}>
-            <img src={logo} className={styles.logo}/>
+    <div className="headerContainer">
+        <Navbar mobileMode={true} menuMode="mobileNav"/>
+        
+        <header className={styles.header} id="header">
+            <Introduction/>
             <Slide right>
-                <Menu mode="headerNav"/>
+                <Navbar mobileMode={false} menuMode="headerNav"/>
             </Slide>
-        </div>
-    </header>
+        </header>
+    </div>
 )
 
 

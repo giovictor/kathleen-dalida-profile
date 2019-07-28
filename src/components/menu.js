@@ -8,12 +8,14 @@ const Menu = (props) => {
     return (
         <div className={styles[mode]}>
             <nav className={styles.navbar}>
-                <MenuItem to="header" itemName="Home" />
-                <MenuItem to="about" itemName="About"/>
-                <MenuItem to="education" itemName="Education"/>
-                <MenuItem to="skills" itemName="My Skills"/>
-                <MenuItem to="designFields" itemName="Design Fields"/>
-                <MenuItem to="contact" itemName="Contact"/>
+                <ul>
+                    <MenuItem to="header" itemName="Home" />
+                    <MenuItem to="about" itemName="About"/>
+                    <MenuItem to="education" itemName="Education"/>
+                    <MenuItem to="skills" itemName="My Skills"/>
+                    <MenuItem to="designFields" itemName="Design Fields"/>
+                    <MenuItem to="contact" itemName="Contact"/>
+                </ul>
             </nav>
         </div>
     )

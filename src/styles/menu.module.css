@@ -21,12 +21,9 @@
     margin-right:51px;
 }
 
-.headerNav .navbar ul {
-    margin-bottom:56px;
-}
-
 .headerNav .navbar ul li {
     text-align:right;
+    margin-bottom:56px;
 }
 
 .headerNav .link {
@@ -39,11 +36,16 @@
 }
 
 .contactNav {
-    padding-left:219px;
+    text-align:center;
 }
 
 .contactNav .link {
     font-weight:500;
+}
+
+.mobileNav ul li {
+    display:inline;
+    padding-right:18px;
 }
 
 @media screen and (max-width:1366px) {
@@ -51,4 +53,5 @@
         letter-spacing:0;
     }
 }
+
 
