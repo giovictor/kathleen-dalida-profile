@@ -44,7 +44,7 @@
 
 .togapic {
     position:absolute;
-    left:742px;
+    right:324px;
     top:50px;
 }
 
@@ -57,7 +57,7 @@
         margin-left:80px;
     }
     .togapic {
-        left:617px;
+        right:157px;
     }
 }
 
@@ -68,5 +68,21 @@
 
     .togaContainer {
         background-image:url('../images/toga.jpg');
+    }
+}
+
+@media screen and (max-width:768px) {
+    .historyContainer {
+        flex:0 0 100%;
+    }
+
+    .togapic {
+        display:block;
+        width:250px;
+        right:30px;
+    }
+
+    .togaContainer {
+        display:none;
     }
 }

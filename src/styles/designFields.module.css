@@ -38,3 +38,10 @@
     margin-top:0;
 
 }
+
+@media screen and (max-width:768px) {
+    .heading {
+        margin-left:0;
+        text-align:center;
+    }
+}

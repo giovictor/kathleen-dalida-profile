@@ -13,10 +13,10 @@ const Education = () => (
                 <History title="SECONDARY" school="Pasay City South High School" year="2010-2014"/>
                 <History title="TERTIARY" degree="Bachelor of Science in Information Technology" school="STI College-Global City" year="2014-2018"/>
             </Fade>
+            <Slide top>   
+                <img src={togapic} className={styles.togapic}/>
+            </Slide>
         </div>
-        <Slide top>   
-            <img src={togapic} className={styles.togapic}/>
-        </Slide>
         <div className={styles.togaContainer}></div>
     </div>
 )
