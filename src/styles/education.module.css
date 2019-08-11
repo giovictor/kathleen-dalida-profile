@@ -76,13 +76,16 @@
         flex:0 0 100%;
     }
 
-    .togapic {
-        display:block;
-        width:250px;
-        right:30px;
-    }
-
     .togaContainer {
         display:none;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .history {
+        margin-left:0;
+        text-align:center;
+        padding-left:20px;
+        padding-right:20px;
     }
 }

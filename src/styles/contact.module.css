@@ -27,3 +27,17 @@
     height:50px;
     margin-right: 12px;
 }
+
+@media screen and (max-width:480px) {
+    .contact {
+        display:block;
+    }
+
+    .menu {
+        border:none;
+    }
+    
+    .contactIcon {
+        margin-top:30px;
+    }
+}

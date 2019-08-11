@@ -29,8 +29,33 @@
     line-height:29.96px;
 }
 
+.togapic {
+    display:none;
+}
+
 @media screen and (max-width:1366px) {
     .body {
         line-height:50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about {
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    .togapic {
+        display:block;
+        width:250px;
+        margin:0 auto;
+    }
+
+}
+
+@media screen and (max-width:481px) {
+    .body {
+        letter-spacing: 0;
+        text-align:center;
     }
 }

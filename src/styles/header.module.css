@@ -81,3 +81,34 @@
         line-height: 70px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .header {
+        top:0;
+        background-position:65%;
+    }
+    .mobileMenu {
+        display:none;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .header {
+        background-position:left;
+    }
+
+    .introduction {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .greeting, .job {
+        font-size:21px;
+    }
+
+    .firstName, .lastName {
+        font-size:35px;
+    }
+}
